@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <script src="https://unpkg.com/htmx.org@2.0.4"></script>
+</head>
+ <body>
+    <h1>URL Shortener</h1>
+    <form id="url-form" hx-post="/shorten" hx-target="#result" hx-swap="innerHTML">
+        <label for="url-input">Enter a URL:</label>
+        <input type="url" id="url-input" name="url" required>
+        <button type="submit">Shorten</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
