@@ -1,4 +1,4 @@
-# shortify
+# shortify [![CircleCI](https://dl.circleci.com/status-badge/img/gh/servusdei2018/shortify/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/servusdei2018/shortify/tree/main)
 
 A simple URL shortening service built with Flask.
 
